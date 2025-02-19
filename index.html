@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GEE GEE'S WHOLESOME WORLD</title>
+<style>
+body {
+  background-image: url("https://files.catbox.moe/6nzbgz.gif");
+  background-size: cover; /* Ensure background covers the entire area */
+  background-repeat: no-repeat;
+  background-color: #f8f8f8;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  min-height: 100vh;
+  margin: 0;
+}
+
+#gif-title {
+  width: 900px; /* Increased width for larger title */
+  height: auto;
+  margin-top: 40px; /* Increased top margin */
+  margin-bottom: 40px;
+  display: block;
+}
+
+#gif-title img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#image-button {
+  width: 350px;
+  height: auto;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: block;
+}
+
+#image-button:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-5px, 0); }
+  50% { transform: translate(5px, 0); }
+  75% { transform: translate(-5px, 0); }
+  100% { transform: translate(0, 0); }
+}
+
+#image-button img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+</style>
+</head>
+<body>
+
+<div id="gif-title">
+  <img src="https://files.catbox.moe/w1yfp1.gif" alt="WORLD">
+</div>
+
+<a href="https://geegeegoo.github.io/geegee/" target="_blank">
+  <div id="image-button">
+    <img src="https://files.catbox.moe/d7vpd1.png" alt="PLAYDOWNLOAD">
+  </div>
+</a>
+
+</body>
+</html>
